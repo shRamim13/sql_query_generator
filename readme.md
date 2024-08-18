@@ -53,7 +53,7 @@ Happy Learning with LLMs! 🎉
 
 ---
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Palestine.svg/320px-Flag_of_Palestine.svg.png" alt="Palestinian Flag" width="32" height="20"> **From the River to the Sea, Palestine will be free**
+**From the River to the Sea, Palestine will be free**
 
 
                   

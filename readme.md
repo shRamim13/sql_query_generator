@@ -59,3 +59,4 @@ We welcome all contributions! Whether it’s improving the code, adding new feat
 This project is licensed under the MIT License. For more details, see the LICENSE file.
 
 Happy Learning with LLMs! 🎉
+](https://chatgpt.com/c/cc8e42e6-d883-44a1-a8e5-b62d6982f2b8#:~:text=concise%20version%20of%20the%20README%3A-,%F0%9F%8C%9F%20SQL%20Query%20Generator%20Using%20LLMs,Happy%20Learning%20with%20LLMs!%20%F0%9F%8E%89,-This%20version%20covers%20all%20the)

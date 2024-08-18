@@ -55,11 +55,6 @@ View Results: Instantly see your query results displayed in a clean, interactive
 🌍 Support & Contribution
 We welcome all contributions! Whether it’s improving the code, adding new features, or refining the interface, your input is valuable. Fork this repository, make your changes, and submit a pull request.
 
-🌏 A Message of Solidarity
-From the river to the sea, Palestine will be free.
-
-
-
 📄 License
 This project is licensed under the MIT License. For more details, see the LICENSE file.
 

@@ -1,62 +1,59 @@
-🌟 SQL Query Generator Using LLMs
-Welcome to the SQL Query Generator project! This tool harnesses the power of Large Language Models (LLMs) to seamlessly transform your natural language questions into SQL queries, retrieving the data you need from a SQLite database—all through an intuitive and user-friendly interface.
+# SQL Query Generator Using LLMs
 
-🚀 Features
-Natural Language to SQL: Effortlessly convert plain English questions into SQL queries with precision.
-Streamlit-Powered Interface: Interact with your database through a sleek and responsive web interface.
-Robust Prompt Engineering: Equipped with extensive prompts to handle a diverse array of queries.
-Real-Time Query Execution: Instantly view results in a well-organized, interactive table.
-📋 Requirements
-Python Version: 3.9 or higher
-Dependencies: Install all necessary libraries using:
-bash
-Copy code
-pip install -r requirements.txt
-API Key: Secure a Google API key, stored in a .env file, for the Generative AI model. Alternatively, configure it directly in the code.
-🛠️ Setup Guide
-Create a Conda Environment: Start by creating a new Conda environment with Python 3.10:
+Transform natural language questions into SQL queries using LLMs with this Streamlit app.
 
-bash
-Copy code
-conda create -p nenv python==3.10 -y
-Activate your environment:
+## Features
 
-bash
-Copy code
-conda activate ./nenv
-Install Dependencies: With the environment activated, install all required packages:
+- Convert English questions to SQL queries.
+- Streamlit interface for easy interaction.
+- Real-time query execution and results display.
 
-bash
-Copy code
-pip install -r requirements.txt
-Create the Database: Generate the SQLite database by running:
+## Requirements
 
-bash
-Copy code
-python sqlite.py
-This command creates the student.db file, which the application will use.
+- Python 3.9+
+- Dependencies: `pip install -r requirements.txt`
+- Google API Key (store in `.env` or set directly in the code)
 
-Configure Your API Key: Store your Google API key in a .env file:
+## Setup & Run
 
-env
-Copy code
-GOOGLE_API_KEY=your_google_api_key_here
-Or, directly set the API key in the sql.py script.
+  1. **Create Conda Environment**:
+     ```bash
+     conda create -p nenv python==3.10 -y
+     conda activate ./nenv
+  2. **Install Dependencies**:
+     ```bash
+     pip install -r requirements.txt
+  3. **Create Database**:
+     ```bash
+     python sqlite.py
+  4. **Configure API Key**:
 
-Launch the Application: Start the Streamlit app with:
+     Create a `.env` file with:
+      ```env
+      GOOGLE_API_KEY=your_google_api_key_here  
+  5. **Run the Application**:
+      ```bash
+      streamlit run sql.py
+      
+## Usage
 
-bash
-Copy code
-streamlit run sql.py
-🧑‍💻 Usage Instructions
-Open the Streamlit Interface: Launch the app in your browser.
-Ask Your Question: Type your natural language question and let the model generate the SQL query.
-View Results: Instantly see your query results displayed in a clean, interactive table.
-🌍 Support & Contribution
-We welcome all contributions! Whether it’s improving the code, adding new features, or refining the interface, your input is valuable. Fork this repository, make your changes, and submit a pull request.
+1. Open the Streamlit app in your browser.
+2. Enter a natural language question.
+3. View the generated SQL query and results in an interactive table.
 
-📄 License
-This project is licensed under the MIT License. For more details, see the LICENSE file.
+## Contribution
+
+Feel free to fork the repository, make improvements, and submit a pull request.
+
+## License
+
+MIT License. See LICENSE for details.
 
 Happy Learning with LLMs! 🎉
-](https://chatgpt.com/c/cc8e42e6-d883-44a1-a8e5-b62d6982f2b8#:~:text=concise%20version%20of%20the%20README%3A-,%F0%9F%8C%9F%20SQL%20Query%20Generator%20Using%20LLMs,Happy%20Learning%20with%20LLMs!%20%F0%9F%8E%89,-This%20version%20covers%20all%20the)
+
+---
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Palestine.svg/320px-Flag_of_Palestine.svg.png" alt="Palestinian Flag" width="32" height="20"> **From the River to the Sea, Palestine will be free**
+
+
+                  

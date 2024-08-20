@@ -4,7 +4,6 @@
 # import os
 # import sqlite3
 # import google.generativeai as genai
-
 # ## configure Genai key
 
 # genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
